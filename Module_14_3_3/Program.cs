@@ -19,8 +19,8 @@ namespace Module_14_3_3
 
             // Сортировка по имени и фамилии (возрастание)
             var resultPhoneBook = phoneBook
-                      .OrderBy(name => name.Name)
-                      .ThenBy(surname => surname.LastName);
+                .OrderBy(name => name.Name)
+                .ThenBy(surname => surname.LastName);
 
             // Вывод результата в консоль
             foreach (var e in resultPhoneBook)
